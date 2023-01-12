@@ -9,4 +9,4 @@ Forget BF4's recon kit ,here is Venice Unleashed
 - Adds some stuff to the recon kit
 - Code is slopy and is work in progress, but works !
 - Gadget slot 1: Ammo crate and Medic bag
-- Gadget slo2 2: RPG/SMAW and Claymore
+- Gadget slot 2: RPG/SMAW and Claymore
