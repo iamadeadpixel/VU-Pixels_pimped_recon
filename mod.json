@@ -1,11 +1,12 @@
 {
     "Name": "Pixels revamped Mod",
     "Description": "Adding some stuff to the recon kit",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
+    "Reason": "Added C4", 
     "Authors": [ "iamadeadpixel" ],
     "HasVeniceEXT": true,
     "Dependencies": {
         "veniceext": "^1.0.0"
     },
-    "Tags": [ "pimpedkits" ]
+    "Tags": [ "pimped-recon" ]
 }
