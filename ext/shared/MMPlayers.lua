@@ -39,6 +39,7 @@ function MMPlayers:onLevelLoaded(levelName, gameMode)
 				ID_WEAPON_CATEGORYGADGET1 = {},
 				ID_M_SOLDIER_GADGET2 = {
 					'Weapons/SMAW/U_SMAW',
+					'Weapons/Gadgets/C4/U_C4',
 					'Weapons/Gadgets/Claymore/U_Claymore'
 				},
 				GRENADE = {},
@@ -83,6 +84,7 @@ function MMPlayers:onLevelLoaded(levelName, gameMode)
 				ID_WEAPON_CATEGORYGADGET1 = {},
 				ID_M_SOLDIER_GADGET2 = {
 					'Weapons/RPG7/U_RPG7',
+					'Weapons/Gadgets/C4/U_C4',
 					'Weapons/Gadgets/Claymore/U_Claymore'
 				},
 				GRENADE = {},
