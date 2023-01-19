@@ -9,6 +9,29 @@ end
 
 function MMPlayers:onLevelLoaded(levelName, gameMode)
 
+
+	local slowSpeedGamemodes = {
+		'ConquestLarge0',
+		'ConquestSmall0',
+		'SquadRush0',
+		'SquadDeathMatch0',
+		'TeamDeathMatch0',
+		'TeamDeathMatchC0',
+		'Domination0',
+		'TankSuperiority0',
+		'RushLarge0',
+		'CaptureTheFlag0',
+		'ConquestAssaultSmall0',
+		'ConquestAssaultSmall1',
+		'ConquestAssaultLarge0'
+	}
+
+	local gm = SharedUtils:GetCurrentGameMode()
+
+
+	if (table.has(slowSpeedGamemodes, gm)) then
+
+
 	local kitSetups = {
 		US = {
 			Assault = {
@@ -102,6 +125,7 @@ function MMPlayers:onLevelLoaded(levelName, gameMode)
 		}
 	}
 
+
 	for teamName, team in pairs(kitSetups) do
 		for kitName, kit in pairs(team) do
 			if (kitName ~= '*') then
@@ -185,6 +209,7 @@ function MMPlayers:findKit(teamName, kitName, returnAll)
     end
 
     return matches
+end
 end
 
 return MMPlayers()
