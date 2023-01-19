@@ -1,5 +1,9 @@
 # Based on VU-MajorsMod code
 Forget BF4's recon kit ,here is Venice Unleashed
+# WARNING !
+# DO NOT USE THE RPG IN SCAVENGER !
+# IT WIL CRASH THE CLIENT !
+# this wil be fixed asap.
 
 # Update: 12-01-2023 Version 1.0.1
 - Added C4 to gadget 2 slot.
