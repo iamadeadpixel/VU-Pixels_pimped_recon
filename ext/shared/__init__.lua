@@ -1,15 +1,18 @@
 -- Check if there is a new version
-require('__shared/UpdateCheck')  
+--require('__shared/UpdateCheck')  
 
 -- global funcs and utils
-require('__shared/MMUtils')
+Utils = require('__shared/Utils')
+ebxEditUtils = require('__shared/EbxEditUtils')
 
 -- load resource list
 mmResources = require('__shared/MMResources')
 
 -- modules
-mmPlayers = require('__shared/MMPlayers')
+mmPlayers1 = require('__shared/MMPlayers1')
+mmPlayers2 = require('__shared/MMPlayers2')
 
-mmResources:AddLoadHandler(mmPlayers, mmPlayers.Write)
+mmResources:AddLoadHandler(mmPlayers1, mmPlayers1.Write)
+mmResources:AddLoadHandler(mmPlayers2, mmPlayers2.Write)
 mmResources:RegisterInstanceLoadHandlers()
 
