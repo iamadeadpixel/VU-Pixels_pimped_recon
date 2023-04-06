@@ -1,6 +1,10 @@
 # Based on VU-MajorsMod code
 Forget BF4's recon kit ,here is Venice Unleashed
 
+# Update: 06-04-2023
+- Last minute update, forgot to enable the update check.
+- Added !bf4 recon - Returns the current version a server runs
+
 # Update: 05-04-2023 Version 1.0.3
 - Final fix for the scavenger isue
 - Not the best solution, but this works !
