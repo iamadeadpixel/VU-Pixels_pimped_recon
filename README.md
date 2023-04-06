@@ -8,10 +8,11 @@ Forget BF4's recon kit ,here is Venice Unleashed
 # Update: 05-04-2023 Version 1.0.3
 - Final fix for the scavenger isue
 - Not the best solution, but this works !
+- Removed rpg/smaw and the medi/ammo bags, should be a BF4 recon mod
 
 # Update: 19-01-2023 Version 1.0.2
 - Fixed the scavenger isue with extended RECON gadgets
-- When player shoots the RPG/C4, the client crashes
+- When player uses the Claymore/C4, the client/server crashes
 
 # Update: 12-01-2023 Version 1.0.1
 - Added C4 to gadget 2 slot.
