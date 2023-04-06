@@ -1,5 +1,5 @@
 -- Check if there is a new version
---require('__shared/UpdateCheck')  
+require('__shared/UpdateCheck')  
 
 -- global funcs and utils
 Utils = require('__shared/Utils')
