@@ -6,5 +6,7 @@ localModVersion = "1.0.3";
 Events:Subscribe('Player:Chat', function(player, recipientMask, message)
     if message == "!bf4 recon" then
       ChatManager:SendMessage("BF4 Recon mod: Version 1.0.3", player)
+    elseif message == "/bf4 recon" then
+      ChatManager:SendMessage("BF4 Recon mod: Version 1.0.3", player)
     end
 end)
