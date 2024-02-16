@@ -6,7 +6,7 @@ require('__shared/version')
 function getCurrentVersion()
     options = HttpOptions({}, 10);
     options.verifyCertificate = false; --ignore cert for wine users
-    res = Net:GetHTTP("https://raw.githubusercontent.com/spatieman/VU-Pixels_pimped_recon/main/mod.json", options);
+    res = Net:GetHTTP("https://raw.githubusercontent.com/iamadeadpixel/VU-Pixels_pimped_recon/main/mod.json", options);
     if res.status ~= 200 then
         return null;
     end
@@ -19,7 +19,7 @@ end
 function checkVersion()
     if getCurrentVersion() ~= localModVersion then
 	print("**********************************************************************************************");
-        print("** VU-Pixels_pimped_recon seems to be out of date! Please visit https://github.com/spatieman/VU-Pixels_pimped_recon **" );
+        print("** VU-Pixels_pimped_recon seems to be out of date! Please visit https://github.com/iamadeadpixel/VU-Pixels_pimped_recon **" );
 	print('Changed Version on github is ('..json.Version..') - Local version:('..localModVersion..') - Reason for update: ('..json.Reason..')')
 	print("**********************************************************************************************");
 	else
